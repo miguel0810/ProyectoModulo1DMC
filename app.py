@@ -1,0 +1,10 @@
+import streamlit as st
+st.title("Titulo")
+st.sidebar.title("Parametros")
+
+valor_inicial = st.number_input("ingrese valor i", value = 0)
+valor_final = st.number_input("sasdad", value = 1)
+
+
+lista_numerica = list(range(valor_inicial,valor_final)
+st.write(lista_numerica)
