@@ -2,8 +2,8 @@ import streamlit as st
 st.title("Proyecto modulo 1 fundamentals")
 st.sidebar.title("Parametros")
 
-valor_inicial = st.number_input("ingrese valor i", value = 0)
-valor_final = st.number_input("sasdad", value = 1)
+valor_inicial = st.number_input("Ingrese valor inicial", value = 0)
+valor_final = st.number_input("Ingrese valor final", value = 1)
 
 
 lista_numerica = list(range(valor_inicial,valor_final))
